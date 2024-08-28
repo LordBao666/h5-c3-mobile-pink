@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+</head>
+
+<body>
+        <span style="font-size: large; font-weight: bold; ">青春不常在,赶紧谈恋爱</span> <br>
+        <form action="#" method="get">
+            <table width="500" >
+                <tbody>
+                    <!-- 性别 -->
+                    <tr>
+                        <td>性别</td>
+                        <td>
+                            <input type="radio" name="gender" id="gender#male" value="male" checked> <label for="gender#male"><img src="./images/man.jpg" alt="man" >
+                            男</label>
+                            <input type="radio" name="gender" id="gender#female" value="female" > <label for="gender#female"><img src="./images/women.jpg"
+                                alt="woman"> 女</label>
+                        </td>
+                    </tr>
+                    <!-- 生日 -->
+                    <tr>
+                        <td>生日</td>
+                        <td>
+                            <select name="birthYear" >
+                                <option value="default" selected>请选择年</option>
+                                <option value="1999">1999</option>
+                                <option value="2000">2000</option>
+                                <option value="2001">2001</option>
+                            </select>
+                            <select name="birthMonth">
+                                <option value="default" selected>请选择月</option>
+                                <option value="1999">1</option>
+                                <option value="2000">2</option>
+                                <option value="2001">3</option>
+                            </select>
+                            <select name="birthDay">
+                                <option value="default" selected>请选择日</option>
+                                <option value="1999">1</option>
+                                <option value="2000">2</option>
+                                <option value="2001">3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <!-- 所在地区 -->
+                    <tr>
+                        <td>所在地区</td>
+                        <td><input type="text" name="area" ></td>
+                    </tr>
+                    <!-- 婚姻状况 -->
+                    <tr>
+                        <td>婚姻状况</td>
+                        <td>
+                            <input type="radio" name="marriageCondtion" id="marriage#0" value="0" checked> <label for="marriage#0">未婚</label>
+                            <input type="radio" name="marriageCondtion" id="marriage#1" value="1"> <label for="marriage#1">已婚</label>
+                            <input type="radio" name="marriageCondtion" id="marriage#2" value="2"> <label for="marriage#2">离异</label>
+                        </td>
+                    </tr>
+                    <!-- 喜欢类型 -->
+                    <tr>
+                        <td>喜欢类型</td>
+                        <td>
+                            <input type="checkbox" name="likeType" value="0" id="likeType#0"> <label for="likeType#0">妩媚的</label> 
+                            <input type="checkbox" name="likeType" value="1" id="likeType#1"> <label for="likeType#1">可爱的</label>
+                            <input type="checkbox" name="likeType" value="2" id="likeType#2"> <label for="likeType#2">小鲜肉</label>
+                            <input type="checkbox" name="likeType" value="3" id="likeType#3"> <label for="likeType#3">老腊肉</label>
+                            <input type="checkbox" name="likeType" value="4" id="likeType#4"> <label for="likeType#4">都喜欢</label>
+                        </td>
+                    </tr>
+                    <!-- 自我介绍 -->
+                    <tr>
+                        <td>自我介绍</td>
+                        <td>
+                            <textarea name="intro"  cols="30" rows="5" placeholder="自我介绍"></textarea>
+                        </td>
+                    </tr>
+                    <!-- 免费注册 -->
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="免费注册">
+                        </td>
+                    </tr>
+                    <!-- 同意标准 -->
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" name="agreement" id="agreement#0">
+                        <label for="agreement#0">我已同意注册条款和会员加入标准</label> 
+                        </td>
+                    </tr>
+                    <!-- 会员登录 -->
+                    <tr>
+                        <td></td>
+                        <td><a href="#" target="_blank">我是会员，立即登录</td>
+                    </tr>
+                    <!-- 承诺 -->
+                    <tr>
+                        <td></td>
+                        <td>
+                            <span style="font-size: large; font-weight: bold;">我承诺</span>
+                            <ul>
+                                
+                                <li >年满18岁, 单身</li>
+                                <li>抱着严肃的态度</li>
+                                <li>真诚寻址另一半</li>
+                        
+                            </ul>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </form>
+        
+</body>
+</html>
